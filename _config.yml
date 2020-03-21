@@ -10,6 +10,7 @@ repository          : aman-roy/aman-roy.github.io     # Change to <your-username
 plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-sitemap
 
 
 ### Navbar Settings ###
