@@ -9,6 +9,7 @@ repository          : aman-roy/aman-roy.github.io     # Change to <your-username
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-feed
 
 
 ### Navbar Settings ###
