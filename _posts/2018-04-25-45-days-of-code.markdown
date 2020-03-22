@@ -1,0 +1,138 @@
+---
+title: "45 Days of code"
+tags: ["programming", "tips", python]
+style: 
+color: 
+image: "/assets/images/45daysofcode/main.png"
+description: "An awesome and detailed path to world of computer science for a complete newbie."
+permalink: 45-days-of-code
+---
+
+
+![45 days of code]({{site.baseurl}}/assets/images/45daysofcode/main.png)
+
+
+
+<br>
+
+> Which programming language to learn first?
+
+> How to start learning to code from the very beginning?
+
+> Is it difficult to learn how to code?
+
+> and the list goes on...
+
+These are the few questions people ask me all the time. Maybe you have also asked these questions from people around you or the internet. In this blog post, I have filtered almost all the online courses and blog posts and prepared a **45 days study plan** for getting started in the world of programming. I have made it for 45 days so that it will **fit into your summer/winter breaks**. It is very **beginner-friendly** and it will start very slow. So, {% include elements/highlight.html text="If you are an experienced programmer, don't follow this path." %} All the source, I have listed is **totally free**. Only if you need certificate then you have to pay but certificates are overrated, don't think about that.
+
+
+#### Some commitments this path requires:-
+* You need to be **consistent** with never giving up attitude.
+* You have to learn **very fast**.
+* You have to dedicate **at least 6-7 Hours daily**. By the way, the more you give, the more you get.
+* Don't take any **course parallel** to it. Focus on this path only. Don't divert.
+
+
+
+#### Some motivation before you go ahead:-
+* At some point, you will feel like why I am doing this? What's the point of adding two numbers? Keep the faith and keep moving. This question is same as asking **"why we crawl when we are infant? when we have to stand and walk in the future? We are never going to crawl again, then why? What is the need of it?"** but it's a process and we have to go through it. You can't skip that.
+* I can give you **money** as a motivating factor, but it doesn't last long. It is true that there is lots and lots of money in this area but don't do it only for money. Let it be the side effect of what you do.
+* If you can't finish it on time as I have given. It's totally ok. Just **don't give up**. Complete it as soon as you can.
+
+#### Some tips to succeed in this path:-
+
+* I have designed this in a way that you will learn only one programming language and that is **Python**. Python is very beginner friendly that's why I have chosen it. Computer science was **never about programming language** and never will be. So, never focus on that. Try to learn the logic of the problem. How it is crafted and all that stuffs. You can learn multiple programming languages very easily. Don't worry about that. **Focus on one for now**.
+* Take this path as a **fun thing**. Don't take it as your course subject or you will fall for sure.
+* Don't get **stuck in one place** for long. Try hard to understand at first. If you can't, **google it** and read first few links. At last, you can [contact me](mailto:royaman8757@gmail.com?subject=45 days of code) directly. I'll try my best to help you out.
+* No need to understand everything at first. It's ok to go slow. Just keep in mind to be **better than the previous day**. 
+* Take **short notes** while watching lectures.
+* Be really **fascinated** about what you are learning. Don't only focus on how to solve a problem, try to **see the beauty which lies within**.
+* **Don't try to remember** a single thing. This is the worst thing you can do.
+* Make **small achievable goals**. Make goals for a single day at a time. 
+* If you are comfortable, you can watch videos at **1.5x or 2x speed**. Don't force yourself for this. Do this only if you are really comfortable.
+* Give yourself a target to **complete the courses in half of the time given**. That will make you a fast learner.
+* **Type every piece of code** you encounter in the whole process.
+* After you finish all the stuffs. Try to **make a project on your own**. There are many project ideas on the internet but don't look there. Brainstorming on your own will be a better idea. **Share the project with me** if possible. I'll love to see. 
+
+
+<div class="breaker"></div>
+
+## THE GAME BEGINS
+
+### Day [0 - 1] 
+
+For the very first day, it's better to start slow. I am going to list some blogs where you will know some technical terms. Just **skim through it**.
+
+1. **Technical stuff in layman's language**<br>
+* <a href="http://carlcheo.com/compsci" target="_blank">40 Key Computer Science Concepts Explained In Layman’s Terms</a><br>
+* <a href="https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27" target="_blank">Intro to Computer Science Terminology</a>
+
+2. **Few tips on programming**<br>
+* <a href="https://www.codingdojo.com/blog/7-tips-learn-programming-faster" target="_blank">7 Critical Tips to Learn Programming Faster</a>
+<br>
+* <a href="https://www.codeconquest.com/bored-programming/" target="_blank">Bored Programming? How to Stay Motivated</a>
+ 
+
+3. **A comic for understanding things better**<br>
+* <a href="https://prairieworldcomicsblog.wordpress.com/programming-series-in-order/" target="_blank">Programming Series in Order</a>
+
+
+
+### Day [2 - 15]
+
+The best starting point for any beginner will be **Charles Severance** course on Python. He is just the best teacher out there. He will teach you python as well as how to learn on your own. Watch all the lectures and try to solve all the problem sets.
+
+<a href="https://www.coursera.org/learn/python" target="_blank">[Coursera] Programming for Everybody (Getting Started with Python)</a> 
+
+**P.S. - When you click on enroll button, a pop-up will show up for starting your course. Look at bottom left corner, click on "audit course" option. This is a free course. You don't have to pay anything.**
+
+### Day [16 - 23]
+
+Now you have basic knowledge of python. Time to have a good amount of practice. In these **8 days**, you will {% include elements/highlight.html text="practice! practice! practice!" %}
+
+1. Complete this in **4 days**. It is curated in a way so that you can finish it in only 13 hours. Do it very well because I have given more time than required. It will give you **best hands-on experience**. <br> 
+<a href="https://www.codecademy.com/tracks/python" target="_blank">Python || Codecademy</a> 
+﻿
+
+2. Take **2 days** to complete this. Do only **Introduction, Basic data types, Strings** and **math** section. You can do all the sections if you want but the sections I have mentioned is compulsory. If you get stuck for long, google for solutions.<br>
+<a href="https://www.hackerrank.com/domains/python/py-introduction" target="_blank"> Hackerrank || Python practice</a> 
+
+
+3. Last **2 days**, solve at least **25 question** given in the link below. There are 36 questions, as I am writing this. There are solutions too but don't peek into it if you haven't fought with the question at least for a half of an hour. You can solve all if you can.<br>
+<a href="https://www.practicepython.org/" target="_blank"> Practice Python || Beginner Python exercises</a>
+
+
+### Day [24 - 29]
+
+These **6 days** are given for books. Video lectures are good but they can never surpass books in any way. Books will give you **underlying mechanism**. 
+
+1. You have already learned many things in python. **2 days** is enough to skim through it. There are some parts of **"Object-oriented"** section which you will feel a little difficult to grasp. You can skip those section if you want. Just go easy on this online book. Don't try to read each and every word.
+<br>
+* **A byte of python by swaroop** - <a href="https://www.gitbook.com/download/pdf/book/swaroopch/byte-of-python" target="_blank"> [Download for free]</a>
+
+2. The second book I am going to mention is not on python. It is about **algorithm and data structures**. Google these terms if needed. This book includes **11 chapters**. Try to cover at least **3 chapters** a day so that you can complete the whole book in **4 days** at max. This book teaches very complicated computer science stuff with the help of graphics. You will surely fall in love with this book. 
+<br>
+* **Grokking Algorithms** - <a href="https://goo.gl/j7eX4Q" target="_blank"> [Download for free]</a> <a href="http://amzn.to/29rVyHf" target="_blank"> [Buy online] </a> <br> 
+<span class="evidence"> Please try to buy it if you can. I don't want to support piracy in any way.</span>
+
+
+### Day [30 - 45]
+
+This is the last thing you have to do. This course requires **more time than I have given**. I have done this to see if you have become a **fast learner** or not. This is the essence of everything. You must have to put in more time than required in this. Complete all the problem sets. Don't skip that. 
+
+<a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11" target="_blank">Introduction to Computer Science and Programming Using Python</a>
+
+
+## Final Words
+
+![Aaron quote]({{site.baseurl}}/assets/images/45daysofcode/aaron.jpg)
+
+
+
+<br><br>
+Kudos, you are a rare species now if you have completed even some portion of it because only {% include elements/highlight.html text="0.5% of people know how to code" %}. This is just a beginning. There are so many things to learn. Ask for help if needed in the comment section below or contact me on my <a href="{{site.baseurl}}/about">social media handles</a>. I will love to guide you as much as possible. 
+
+Go explore, adventure is waiting!
+
+Happy coding!
+
