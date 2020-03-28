@@ -1,9 +1,9 @@
 <div class="Previous-next">
   {% if page.previous.url %}
-    <a class="previous" href="{{page.previous.url}}">&laquo; previous post</a>
+    <a class="previous" data-toggle="tooltip" title="{{page.previous.title}}" href="{{page.previous.url}}">&laquo; previous post</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">next post &raquo;</a>
+    <a class="next" data-toggle="tooltip" title="{{page.next.title}}" href="{{page.next.url}}">next post &raquo;</a>
   {% endif %}
 </div>
 
