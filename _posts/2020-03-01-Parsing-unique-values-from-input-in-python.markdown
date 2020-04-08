@@ -1,9 +1,9 @@
 ---
 title: "Parsing unique values from input() in Python"
 tags: ["competitive programming", "python", "tips"]
-style: 
-color: 
-image: "/assets/images/pythonUniqueInput/cover.jpg"
+style:
+color:
+image: "/assets/images/post_6_pythonUniqueInput/cover.jpg"
 description: "Pythonic way of taking input and keeping only unique values."
 permalink: parsing-unique-values-from-input-in-python
 ---
@@ -50,20 +50,20 @@ print(inp)
 
 ### Solution #3
 
-It is similar to the previous one. It's just a **shorthand way** of writing the previous line. 
+It is similar to the previous one. It's just a **shorthand way** of writing the previous line.
 
 ```python
 print({*input()})
 ```
 
-This is how it works - 
+This is how it works -
 
-![asterisk input]({{site.baseurl}}/assets/images/pythonUniqueInput/asterisk_input.png)
+![asterisk input]({{site.baseurl}}/assets/images/post_6_pythonUniqueInput/asterisk_input.png)
 
 <small>let's assume we took "hello" as an input.</small>
 
-
 We can do the same thing on word level by using the **_split_** function.
+
 ```python
 print({*input().split()})
 
@@ -81,7 +81,8 @@ In short, the problem tells to print **"CHAT WITH HER!"** If the number of uniqu
 
 Constraint - {% include elements/highlight.html text="'a' <= charachter <= 'z'" %}
 
-For example: 
+For example:
+
 ```
 Input: wjmzbmr
 Output: CHAT WITH HER!
@@ -98,15 +99,15 @@ Output: IGNORE HIM!
 
 #### Solution
 
-* Take input.
-* **Split** it into series of characters.
-* Put it into **set** to remove duplicates.
-* Get the **length of set**.
-* If length is even, print **"CHAT WITH HER!"** else print **"IGNORE HIM!"**.
+- Take input.
+- **Split** it into series of characters.
+- Put it into **set** to remove duplicates.
+- Get the **length of set**.
+- If length is even, print **"CHAT WITH HER!"** else print **"IGNORE HIM!"**.
 
 #### Code
 
-This is how you can write it in Python - 
+This is how you can write it in Python -
 
 ```python
 inp = {*input()}
@@ -117,7 +118,7 @@ else:
     print("IGNORE HIM!")
 ```
 
-The above code can be written in one line too using **idiomatic Python** - 
+The above code can be written in one line too using **idiomatic Python** -
 
 ```python
 print("IGNORE HIM!" if len({*input()})%2 else "CHAT WITH HER!")

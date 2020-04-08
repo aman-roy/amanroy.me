@@ -3,12 +3,12 @@ title: "Decreasing complexity one step at a time"
 tag: ["competitive programming", "algorithm"]
 style:
 color:
-image: "/assets/images/lightmorelight/cover.jpg"
+image: "/assets/images/post_4_lightmorelight/cover.jpg"
 description: "Solving a competitive programming problem and making it less complex on the way."
 permalink: decreasing-complexity-one-step-at-a-time
 ---
 
-![cover image]({{site.baseurl}}/assets/images/lightmorelight/cover.jpg)
+![cover image]({{site.baseurl}}/assets/images/post_4_lightmorelight/cover.jpg)
 
 > _**“Knowing it and seeing it are two different things.”**_ ― Suzanne Collins
 
@@ -29,7 +29,7 @@ For example, assume **N = 6** means there are 6 switches as of now. **Initially,
 
 and so on..._**(see picture)**_
 
-![toogle switch]({{site.baseurl}}/assets/images/lightmorelight/toggle_switch.jpg)
+![toogle switch]({{site.baseurl}}/assets/images/post_4_lightmorelight/toggle_switch.jpg)
 
 After simulating the whole process the last switch (i.e. _switch 6_) is OFF. **So the result will be OFF.**
 
@@ -122,7 +122,7 @@ ENDPROGRAM
 
 Now it's time to be the ninja. From the previous solution, we can observe a very important thing. What we want to know is the count of numbers that can divide _**N**_ is even or odd. If the count is even, it will set the switch to **False** and if it's odd that means it will set it to **True**.
 
-![factors even odd]({{site.baseurl}}/assets/images/lightmorelight/factors_even_odd.jpg)
+![factors even odd]({{site.baseurl}}/assets/images/post_4_lightmorelight/factors_even_odd.jpg)
 
 
 E.g. For number 12, **Initally the switch is set to OFF**. 
@@ -143,7 +143,7 @@ There is one property of perfect square. **The factor count of perfect square is
 
 If you take any number **_X_**, you can write it as a product of two numbers. There can be multiple ways. See the picture below to understand the differece between a perfect square and a non-perfect square.  
 
-![perfect square]({{site.baseurl}}/assets/images/lightmorelight/perfect_square.jpg)
+![perfect square]({{site.baseurl}}/assets/images/post_4_lightmorelight/perfect_square.jpg)
 
 In the above example, first see the right hand side. For number **12**, the first three lines are same as the last three lines. Each lines are written as **a * b**, where **a is not equal to b** in all the lines. i.e. **the count will always be even because the factors come in pairs.**
 

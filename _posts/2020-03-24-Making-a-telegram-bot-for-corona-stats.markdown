@@ -1,20 +1,20 @@
 ---
 title: "Making a telegram bot for coronavirus stats"
 tags: [python, bots]
-style: 
-color: 
-image: "/assets/images/telegram_bot_corona_virus/cover.jpg"
+style:
+color:
+image: "/assets/images/post_7_telegram_bot_corona_virus/cover.jpg"
 description: "Creating a Telegram bot which can give you stats related to COVID-19"
 permalink: making-a-telegram-bot-for-coronavirus-stats
 ---
 
-![covid19]({{site.baseurl}}/assets/images/telegram_bot_corona_virus/cover.jpg)
+![covid19]({{site.baseurl}}/assets/images/post_7_telegram_bot_corona_virus/cover.jpg)
 
 > **_“Numbers never lie, after all: they simply tell different stories depending on the math of the tellers.”_**
 
 > ― Luis Alberto Urrea,
 
-The world is going through a war—a virus that developed in the Chinese city **Wuhan** has made everyone go for hiding. Everyone is scared of everyone. This situation has made every person very vulnerable. 
+The world is going through a war—a virus that developed in the Chinese city **Wuhan** has made everyone go for hiding. Everyone is scared of everyone. This situation has made every person very vulnerable.
 
 These days people are always using the internet to see the stats. These stats show them the seriousness of this pandemic. These stats tell them how much they should panic. Being quarantined at home gives me so much time to create something valuable.
 
@@ -22,17 +22,18 @@ I decided to make a bot that updates us with stats. At first, I wanted to make a
 
 ### Approach
 
-The approach was pretty simple. For getting the stats, I scraped a website using `beautiful soup`, which was having all the data needed. 
+The approach was pretty simple. For getting the stats, I scraped a website using `beautiful soup`, which was having all the data needed.
 
 Steps:
 
-1. Scrape the website to get all the data. 
+1. Scrape the website to get all the data.
 2. Prettify it to make it presentable.
 3. Generating Token for Telegram bot.
 4. Attach it to python-telegram-bot library.
 5. Deploy it on Heroku.
 
 Install `bs4` and `python-telegram-bot` using pip before moving forward.
+
 ```
 pip install bs4
 pip install python-telegram-bot
@@ -133,7 +134,7 @@ For getting the token, go to telegram and search for [BotFather](https://t.me/Bo
 
 I used a [boilerplate](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/echobot2.py) template which was already there in the example and made the changes according to my need.
 
-So the complete code was something like this - 
+So the complete code was something like this -
 
 ```python
 from urllib.request import urlopen
@@ -263,7 +264,8 @@ if __name__ == '__main__':
     main()
 ```
 
-You can run the above code like this - 
+You can run the above code like this -
+
 ```
 export TOKEN="<your_token>"
 python app.py
@@ -274,29 +276,34 @@ python app.py
 You can't keep your computer running. You need to deploy it somewhere so that it can run even if your system is down. I generally prefer Heroku. You can choose any cloud service.
 
 Before deploying it to Heroku, You need three files there with the python script.
+
 - Procfile
 - requirements.txt
 - runtime.txt
 
-In Procfile, write - 
+In Procfile, write -
+
 ```
 worker: python app.py
 ```
 
-In requirements.txt, write - 
+In requirements.txt, write -
+
 ```
 bs4
 python-telegram-bot
 ```
 
-In runtime.txt, write - 
+In runtime.txt, write -
+
 ```
 python-3.8.2
 ```
 
 Make sure that you have [Heroku cli](https://devcenter.heroku.com/articles/heroku-cli) and Git installed.
 
-Type these commands to make them up and running - 
+Type these commands to make them up and running -
+
 ```
 heroku login
 git init
@@ -308,7 +315,8 @@ heroku config:set TOKEN=<your-app-token>
 heroku ps:scale web=1
 ```
 
-For checking if it is working fine or not - 
+For checking if it is working fine or not -
+
 ```
 heroku logs --tail
 ```
@@ -319,7 +327,7 @@ I have deployed it and you can use it here - [Corona Telegram Bot](https://t.me/
 
 See code - [GitHub Repo](https://github.com/aman-roy/corona-stats-telegram-bot)
 
-
 ### Conclusion
 
 Making this bot was just a way to spread awareness about the COVID-19. Be at home, make the best out of this time, stay away from fake news. Getting infected with the virus is as easy as making this bot. So, it's better to treat wellness than treating illness.
+

@@ -1,22 +1,22 @@
 ---
 title: "This is CS50!"
 tags: ["moocs", "experience"]
-style: 
-color: 
-image: "/assets/images/cs50/cover.jpg"
+style:
+color:
+image: "/assets/images/post_1_cs50/cover.jpg"
 description: "My experience through CS50x, Harvard university's Introduction to computer Science."
 permalink: This-is-CS50!
 ---
 
-![This is CS50]({{site.baseurl}}/assets/images/cs50/cover.jpg)
+![This is CS50]({{site.baseurl}}/assets/images/post_1_cs50/cover.jpg)
 
 So, the journey which I started a few months ago reached its end. [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) is an 11 week(12 weeks when I started) MOOC which is an Introduction to Computer Science. It started from the very beginning talking about bits and bytes but ended with using an [API](https://en.wikipedia.org/wiki/Application_programming_interface). According to CS50 survey report, almost **73% of CS50 students** have never taken a CS course before. This course is taught by [David J. Malan](http://cs.harvard.edu/malan/) who is the coolest professor I ever come across. I got to know about this course from a [Quora Answer](https://www.quora.com/What-are-some-of-the-best-ways-to-learn-programming/answer/Rounak-Banik) and it is the best thing ever happened to me.
 
 In this blog post, I am going to tell you my overall experiences through each week and problem I faced through each problem sets. By the way, I started this [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course) in 2016 but can't complete due to exams but resumed it in 2017. In between, the course got moved from **PHP to Python**. This course also teaches about C, Flask(Python microframework for creating dynamic websites), Javascript, HTML, CSS, etc.
 
-Before moving forward I want to tell you that before this course, I have some exposure to programming,  mainly in C and Python but I learned a lot through this journey. This [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course) was not easy but it was interesting and that is what matters the most because if it seems easy that means I am not learning anything. Whenever you think this [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course) is not for you that means you are not pushing much. According to [David J. Malan](http://cs.harvard.edu/malan/), this course has no prerequisites but I think there are two - 
+Before moving forward I want to tell you that before this course, I have some exposure to programming, mainly in C and Python but I learned a lot through this journey. This [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course) was not easy but it was interesting and that is what matters the most because if it seems easy that means I am not learning anything. Whenever you think this [MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course) is not for you that means you are not pushing much. According to [David J. Malan](http://cs.harvard.edu/malan/), this course has no prerequisites but I think there are two -
 
-1. **Consistency** and 
+1. **Consistency** and
 2. **Never Give up Attitude**
 
 And always remember...
@@ -30,12 +30,15 @@ So, Start today. Sorry, not even today. Start it **NOW!** But don't start if you
 ---
 
 ## Week 0: SCRATCH aka {Honeymoon_Period}
-This was just a **honeymoon period** for me. This week lecture was about computer science in general. I was taught some basic things about computer science. [Scratch](https://scratch.mit.edu/) was also introduced to understand some basic concepts of programming. 
+
+This was just a **honeymoon period** for me. This week lecture was about computer science in general. I was taught some basic things about computer science. [Scratch](https://scratch.mit.edu/) was also introduced to understand some basic concepts of programming.
 
 ### Problem Set: 0
+
 This was simply complicated. Simple because you know everything about your tools but complicated because you have to think yourself how to use them in a manner to produce something really good out of it. In this problem set, you have to create a problem first then you have to solve it. {% include elements/highlight.html text="Maybe you are good at solving the problem but you will have a hard time in thinking of a problem which you think you can solve." %}
 
 ## Week 1-5: C aka {Sweet_Poison}
+
 I call it **sweet poison**. These weeks are all about **"C"**. It's a low-level programming language so we have to do memory management manually but it is very fast. These weeks are not all about **"C"** only but also about some basic [Algorithms](https://en.wikipedia.org/wiki/Algorithm) and [Data Structures](https://en.wikipedia.org/wiki/Data_structure). So, I call it sweet poison because at first, it seems very easy but when David introduce me to pointers, it became a real headache. There are many other headaches too but this was really painful. That time I was also like giving up but I kept going because of [Winston Churchill](https://en.wikipedia.org/wiki/Winston_Churchill), because once he said -
 
 > If You're Going Through Hell, Keep Going ~ Winston Churchill
@@ -43,25 +46,30 @@ I call it **sweet poison**. These weeks are all about **"C"**. It's a low-level 
 {% include elements/highlight.html text="So after googling millions of time, wandering through thousands of blog posts I understood, and I understood it well." %}
 
 ### Problem Set: 1-5
+
 At first, I tackled with [Hello, world](http://docs.cs50.net/problems/hello/hello.html) problem and I thought, What an easy question is this. I decided to **finish CS50 in less than a month** but I have no idea what is about to come. Problem Set 1 and 2 was an easy cake for me but Week 3 hinted me that you have to keep patience and this is not gonna end in a month. Problem set 4 proved the previous point like a boss and took quite some time to be solved. Problem Set 5 alone took a month because of two reasons. First, It was really tough for me and second because my exams are near so I can't fully concentrate on it. But somehow I managed to get **100/100** in all problem sets. I also managed to solve **hacker1** but can't do hacker series onwards.
 
 ## Pause
+
 So, I left the course midway for few months because my exams are very near and I don't want to mess it up. It was maybe November 2016 that time when I left and resumed it in March 2017. CS50 got changed. It moved from **PHP to Python** which is good for me because I have some experience in Python but it was not all that good because I got to know about things which I already know.
 
 ## Week 6-10: Into the Web aka {The_Messi}
+
 I call it **The Messi** because it is really a mess. Previously every week you only interact with "C" but from now on every week you got introduced to fully new technology. Week 6 and 7 has no problem sets so it was a big relief for me. I got introduced to how the internet works, TCP/IP and some web protocols which is necessary because I was going to dive into web technologies in upcoming weeks. I got introduced to [machine learning](https://en.wikipedia.org/wiki/Machine_learning) too but couldn't get much. In upcoming weeks I got to know about Python, Flask(for creating backend of a website), HTML, CSS and JavaScript. I got to know about [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system) using SQL which is quite nice. So all along it was quite a mess but it introduced me to a plethora of things which is good for my future projects.
 
 ### Problem Set: 6-8
+
 Problem set 6 was based on basic python so that was easy and took 2-3 hours to complete. Problem set 7 was not hard, It was interesting. This was the first time I was going to build backend of a website. It took some time but it's worth doing it. Problem set 8 was again a headache because it was really a mess. You have to understand a lot of things like - HTML, CSS, JavaScript, Python, Flask, SQL, etc and on the top of this, you have to also interact with an [API](https://en.wikipedia.org/wiki/Application_programming_interface). The answer was easy and short but the question was large and complex. You can't solve a problem without understanding the question first. So it took a week for me to understand it completely. At last, I got 100/100 in all three.
 
 ## Week 11: The End aka {The_last_lecture}
+
 After many rise and fall, I somehow reached the end. In this week there is nothing to learn but it made me realize that how I started with Scratch, all the way to C, Python, Javascript, etc and reached its end. It was the shortest video in comparison to other videos but has the most impact. It was quite emotional because CS50 is more family than an MOOC to me. A short video is also shown in the last about the whole journey of CS50 which seems quite nice. Finally, It was awesome.
 
 ## Final Project
 
-For my final project I have created a [Flask](http://flask.pocoo.org) based web app which uses [GitHub API v3](https://developer.github.com/v3) to plot your Github profile beautifully. 
+For my final project I have created a [Flask](http://flask.pocoo.org) based web app which uses [GitHub API v3](https://developer.github.com/v3) to plot your Github profile beautifully.
 
-#### Demo 
+#### Demo
 
 You can try this web app here - <https://stalkhub.amanroy.me/>
 
@@ -71,11 +79,11 @@ Don't forget to give it a star.
 
 ## Gradebook
 
-![Gradebook_screenshot]({{site.baseurl}}/assets/images/cs50/Aman_Gradebook_screenshot.png)
+![Gradebook_screenshot]({{site.baseurl}}/assets/images/post_1_cs50/Aman_Gradebook_screenshot.png)
 
 ## Certificate
 
-![certificate]({{site.baseurl}}/assets/images/cs50/cs50_certificate.jpg)
+![certificate]({{site.baseurl}}/assets/images/post_1_cs50/cs50_certificate.jpg)
 
 ## Some Tips
 
@@ -92,4 +100,4 @@ Don't forget to give it a star.
 
 ### Edit
 
-* Someone asked for the course link. Here it is - <https://www.edx.org/course/introduction-computer-science-harvardx-cs50x/>
+- Someone asked for the course link. Here it is - <https://www.edx.org/course/introduction-computer-science-harvardx-cs50x/>
