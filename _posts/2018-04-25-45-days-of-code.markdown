@@ -86,7 +86,7 @@ The best starting point for any beginner will be **Charles Severance** course on
 Now you have basic knowledge of python. Time to have a good amount of practice. In these **8 days**, you will {% include elements/highlight.html text="practice! practice! practice!" %}
 
 1. Complete this in **4 days**. It is curated in a way so that you can finish it in only 13 hours. Do it very well because I have given more time than required. It will give you **best hands-on experience**. <br>
-   <a href="https://www.codecademy.com/tracks/python" target="_blank">Python || Codecademy</a>
+   <a href="https://www.codecademy.com/learn/learn-python" target="_blank">Python || Codecademy</a>
 
 2) Take **2 days** to complete this. Do only **Introduction, Basic data types, Strings** and **math** section. You can do all the sections if you want but the sections I have mentioned is compulsory. If you get stuck for long, google for solutions.<br>
    <a href="https://www.hackerrank.com/domains/python/py-introduction" target="_blank"> Hackerrank || Python practice</a>
@@ -101,7 +101,7 @@ These **6 days** are given for books. Video lectures are good but they can never
 1. You have already learned many things in python. **2 days** is enough to skim through it. There are some parts of **"Object-oriented"** section which you will feel a little difficult to grasp. You can skip those section if you want. Just go easy on this online book. Don't try to read each and every word.
    <br>
 
-- **A byte of python by swaroop** - <a href="https://www.gitbook.com/download/pdf/book/swaroopch/byte-of-python" target="_blank"> [Download for free]</a>
+- **A byte of python by swaroop** - <a href="https://python.swaroopch.com" target="_blank"> [Download for free]</a>
 
 2. The second book I am going to mention is not on python. It is about **algorithm and data structures**. Google these terms if needed. This book includes **11 chapters**. Try to cover at least **3 chapters** a day so that you can complete the whole book in **4 days** at max. This book teaches very complicated computer science stuff with the help of graphics. You will surely fall in love with this book.
    <br>
