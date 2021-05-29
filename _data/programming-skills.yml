@@ -4,7 +4,7 @@
 
 - name: Go
   percentage: 80
-  color:
+  color: secondry
 
 - name: Python
   percentage: 70
