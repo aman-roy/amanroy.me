@@ -1,5 +1,5 @@
 ---
-title: Today I Learned
+title: TIL
 external_url: http://til.amanroy.me
-weight: 4
+weight: 3
 ---
